@@ -1,3 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import './directory.styles.scss';
+class Directory extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      sections: []
+    }
+
+
+  };
+};
+
+export default Directory;
