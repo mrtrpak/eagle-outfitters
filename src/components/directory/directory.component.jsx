@@ -19,19 +19,16 @@ class Directory extends Component {
         {
           title: 'FOOTWEAR',
           image: footwear,
-          size: 'small',
           id: 1
         },
         {
           title: 'JACKETS',
           image: jackets,
-          size: 'small',
           id: 2
         },
         {
           title: 'HATS',
           image: hats,
-          size: 'small'
           id: 3
         },
         {
@@ -56,8 +53,8 @@ class Directory extends Component {
     return(
       <div className='directory-menu'>
         {
-          sections.map(({ title, image, id }) => (
-            <MenuItem key={id} title={title} image={image}
+          sections.map(({ title, image, size, id }) => (
+            <MenuItem key={id} title={title} image={image} size={size}
             />
           ))
         }
