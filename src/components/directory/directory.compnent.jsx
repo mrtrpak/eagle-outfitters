@@ -11,7 +11,33 @@ class Directory extends Component {
     super();
 
     this.state = {
-      sections: []
+      sections: [
+        {
+          title: 'footwear',
+          image: footwear,
+          id: 1
+        },
+        {
+          title: 'jackets',
+          image: jackets,
+          id: 2
+        },
+        {
+          title: 'hats',
+          image: hats,
+          id: 3
+        },
+        {
+          title: 'mens',
+          image: mens,
+          id: 4
+        },
+        {
+          title: 'womens',
+          image: womens,
+          id: 5
+        }
+      ]
     }
 
 
