@@ -4,11 +4,11 @@ import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
 
-import footwear from './footwear.jpg';
-import jackets from './jackets.jpg';
-import hats from './hats.jpg';
-import mens from './mens.jpg';
-import womens from './womens.jpg';
+import footwear from './photos/footwear.jpg';
+import jackets from './photos/jackets.jpg';
+import hats from './photos/hats.jpg';
+import mens from './photos/mens.jpg';
+import womens from './photos/womens.jpg';
 
 class Directory extends Component {
   constructor() {
@@ -52,7 +52,7 @@ class Directory extends Component {
       <div className='directory-menu'>
         {
           sections.map(({ title, imageUrl, id }) => (
-            
+            <MenuItem key={id} title={title} />
           ))
         }
       </div>
