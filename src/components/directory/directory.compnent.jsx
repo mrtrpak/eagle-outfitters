@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import MenuItem from '../menu-item/menu-item.component';
+
 import footwear from './footwear.jpg';
 import jackets from './jackets.jpg';
 import hats from './hats.jpg';
@@ -42,8 +44,16 @@ class Directory extends Component {
   };
 
   render() {
+    const { sections } = this.state;
+
     return(
-      <div></div>
+      <div className='directory-menu'>
+        {
+          sections.map(({ title, imageUrl, id }) => (
+            
+          ))
+        }
+      </div>
     );
   };
 };
