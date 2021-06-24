@@ -17,28 +17,28 @@ class Directory extends Component {
     this.state = {
       sections: [
         {
-          title: 'FOOTWEAR',
+          title: 'footwear',
           image: footwear,
           id: 1
         },
         {
-          title: 'JACKETS',
+          title: 'jackets',
           image: jackets,
           id: 2
         },
         {
-          title: 'HATS',
+          title: 'hats',
           image: hats,
           id: 3
         },
         {
-          title: 'MENS',
+          title: 'mens',
           image: mens,
           size: 'large',
           id: 4
         },
         {
-          title: 'WOMENS',
+          title: 'womens',
           image: womens,
           size: 'large',
           id: 5
