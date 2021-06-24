@@ -19,26 +19,31 @@ class Directory extends Component {
         {
           title: 'FOOTWEAR',
           image: footwear,
+          size: 'small',
           id: 1
         },
         {
           title: 'JACKETS',
           image: jackets,
+          size: 'small',
           id: 2
         },
         {
           title: 'HATS',
           image: hats,
+          size: 'small'
           id: 3
         },
         {
           title: 'MENS',
           image: mens,
+          size: 'large',
           id: 4
         },
         {
           title: 'WOMENS',
           image: womens,
+          size: 'large',
           id: 5
         }
       ]
