@@ -7,8 +7,6 @@
   justify-content: center;
   border: 1px solid #000000;
   margin: 0 7px 14px;
-  background-position: center;
-  background-size: cover;
 
   &.large {
     height: 350px;
@@ -21,6 +19,13 @@
   &:last-child {
     margin-left: 7px;
   }
+
+  .background-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
   
   .content {
     height: 90px;
@@ -32,6 +37,7 @@
     border: 1px solid black;
     background-color: whitesmoke;
     opacity: 0.65;
+    position: absolute;
     
     .title {
       font-weight: bold;
