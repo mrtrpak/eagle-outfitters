@@ -52,7 +52,7 @@ class Directory extends Component {
       <div className='directory-menu'>
         {
           sections.map(({ title, imageUrl, id }) => (
-
+            
           ))
         }
       </div>
