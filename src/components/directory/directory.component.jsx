@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import MenuItem from '../menu-item/menu-item.component';
-
 import './directory.styles.scss';
+
+import MenuItem from '../menu-item/menu-item.component';
 
 import footwear from './photos/footwear.jpg';
 import jackets from './photos/jackets.jpg';
@@ -54,7 +54,9 @@ class Directory extends Component {
       <div className='directory-menu'>
         {
           sections.map(({ title, image, size, id }) => (
-            <MenuItem key={id} title={title} image={image} size={size}
+            <MenuItem 
+              key={id} title={title} 
+              image={image} size={size}
             />
           ))
         }
