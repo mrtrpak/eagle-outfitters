@@ -1,7 +1,7 @@
 .collection-item {
   width: 20%;
   display: flex;
-  flex: column;
+  flex-direction: column;
   height: 350px;
   align-items: center;
 
@@ -19,13 +19,13 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-  }
-
-  .name {
-    width: 90%;
-    margin-bottom: 15px;
-  }
-  .price {
-    width: 10%;
+    
+    .name {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+    .price {
+      width: 10%;
+    }
   }
 }
