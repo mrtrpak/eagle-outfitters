@@ -55,7 +55,7 @@ class SignIn extends Component {
           />
 
           <CustomButton type="submit">
-            sign in
+            sign in           
           </CustomButton>
         </form>
       </div>
