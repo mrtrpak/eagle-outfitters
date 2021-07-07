@@ -11,8 +11,19 @@ import ShopPage from './pages/shop/shop.component.jsx';
 import signInAndSignUpPage from './pages/signIn-signUp/signIn-signUp.component.jsx';
 
 class App extends Component {
-  render() {
+  constructor() {
+    super();
 
+    this.state = {
+      currentUser: null
+    };
+  };
+
+  componentDidMount() {
+    auth.onAuthStateChanged();
+  };
+
+  render() {
     return (
       <div>
         <Header />
