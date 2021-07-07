@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+
+import { auth } from './firebase/firebase.utils.js';
 
 import './App.css';
 
@@ -8,17 +10,20 @@ import HomePage from './pages/homepage/homepage.component.jsx';
 import ShopPage from './pages/shop/shop.component.jsx';
 import signInAndSignUpPage from './pages/signIn-signUp/signIn-signUp.component.jsx';
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <Switch>
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/shop' component={ShopPage} />
-        <Route exact path='/signIn' component={signInAndSignUpPage} />
-      </Switch>
-    </div>
-  );
-}
+class App extends Component {
+  render() {
+
+    return (
+      <div>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/shop' component={ShopPage} />
+          <Route exact path='/signIn' component={signInAndSignUpPage} />
+        </Switch>
+      </div>
+    );
+  };
+};
 
 export default App;
