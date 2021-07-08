@@ -8,6 +8,17 @@ import FormInput from '../form-input/form-input.component.jsx';
 import CustomButton from '../custom-button/custom-button.component.jsx';
 
 class SignUp extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      displayName: "",
+      email: "",
+      password: "",
+      confirmPassword: ""
+    };
+  };
+  
   render() {
     return (
       <div></div>
