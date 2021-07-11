@@ -27,3 +27,7 @@
 - Root Reducer: function that receives an input and an expected output (pure)
 - Store: entire state of the app
 - DOM Changes: the new state makes updates to the DOM
+
+## App Layout
+
+### UI Features
