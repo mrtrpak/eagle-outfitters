@@ -4,11 +4,11 @@ import './cart-dropdown.styles.scss';
 
 import CustomButton from '../custom-button/custom-button.component.jsx';
 
-const Cart = () => (
+const CartDropdown = () => (
   <div className="cart-dropdown">
     <div className="cart-items" />
     <CustomButton>GO TO CHECKOUT</CustomButton>
   </div>
 );
 
-export default Cart;
+export default CartDropdown;
