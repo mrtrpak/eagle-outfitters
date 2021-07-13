@@ -8,6 +8,8 @@ import { ReactComponent as Logo } from '../../assets/eagle.svg';
 
 import './header.styles.scss';
 
+import CartIcon from '../cart-icon/cart-icon.component.jsx';
+
 const Header = ({ currentUser }) => (
   <div className="header">
     <Link className="logo-container" to="/">
@@ -22,6 +24,7 @@ const Header = ({ currentUser }) => (
         :
         <Link className="option" to="/signIn">SIGN IN</Link>
       }
+      <CartIcon />
     </div>
   </div>
 );
