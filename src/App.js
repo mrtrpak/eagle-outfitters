@@ -10,7 +10,7 @@ import './App.css';
 import Header from './components/header/header.component.jsx'
 import HomePage from './pages/homepage/homepage.component.jsx';
 import ShopPage from './pages/shop/shop.component.jsx';
-import signInAndSignUpPage from './pages/signIn-signUp/signIn-signUp.component.jsx';
+import SignInAndSignUpPage from './pages/signIn-signUp/signIn-signUp.component.jsx';
 
 class App extends Component {
 
@@ -44,13 +44,15 @@ class App extends Component {
       <div>
         <Header />
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/shop' component={ShopPage} />
-          <Route exact path='/signIn' render={
-            () => this.props.currentUser 
-            ? (<Redirect to="/" />) 
-            : (<signInAndSignUpPage />) 
-          } />
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/shop" component={ShopPage} />
+          <Route exact path="/signIn">
+            {
+              this.props.currentUser 
+              ? <Redirect to="/" /> 
+              : <SignInAndSignUpPage />
+            }
+          </Route>
         </Switch>
       </div>
     );
