@@ -13,6 +13,7 @@ import Header from './components/header/header.component.jsx'
 import HomePage from './pages/homepage/homepage.component.jsx';
 import ShopPage from './pages/shop/shop.component.jsx';
 import SignInAndSignUpPage from './pages/signIn-signUp/signIn-signUp.component.jsx';
+import CheckoutPage from './pages/checkout/checkout.component.jsx';
 
 class App extends Component {
 
@@ -48,6 +49,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/shop" component={ShopPage} />
+          <Route exact path="/checkout" component={CheckoutPage} />
           <Route exact path="/signIn">
             {
               this.props.currentUser 
