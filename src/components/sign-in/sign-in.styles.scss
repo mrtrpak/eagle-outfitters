@@ -10,5 +10,13 @@
   .buttons {
     display: flex;
     justify-content: space-between;
+
+    .custom-button {
+      padding: 0 15px;
+
+      @media only screen and (min-width: 800px) {
+        padding: 0 30px;
+      }
+    }
   }
 }
