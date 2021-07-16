@@ -9,6 +9,7 @@
 - React
 - Firebase
 - Redux
+- Reselect
 
 ## Why Redux
 
