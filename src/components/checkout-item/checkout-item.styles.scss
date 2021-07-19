@@ -22,7 +22,12 @@
   }
 
   .quantity {
-    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+    .value {
+      padding: 0 5px;
+    }
   }
 
   .remove-button {
