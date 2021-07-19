@@ -25,8 +25,12 @@
     display: flex;
     align-items: center;
 
+    .arrow {
+      cursor: pointer;
+    }
+
     .value {
-      padding: 0 5px;
+      margin: 0 10px;
     }
   }
 
