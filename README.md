@@ -11,6 +11,7 @@
 - Redux
 - Redux Persist
 - Reselect
+- Lodash.memoize
 
 ## Why Redux
 
