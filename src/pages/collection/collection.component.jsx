@@ -4,10 +4,10 @@ import './category.styes.scss';
 
 import CollectionItem from '../../components/collection-item/collection-item.component.jsx';
 
-const CategoryPage = () => (
-  <div className="category">
-    <h2>CATEGORY PAGE</h2>
+const CollectionPage = ({ match }) => (
+  <div className="collection">
+    <h2>COLLECTION PAGE</h2>
   </div>
 );
 
-export default CategoryPage;
+export default CollectionPage;
