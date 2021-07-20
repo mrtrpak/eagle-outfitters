@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import './category.styes.scss';
+import './collection.styles.scss';
 
 import { selectCollection } from '../../redux/shop/shop.selectors.js';
 import CollectionItem from '../../components/collection-item/collection-item.component.jsx';
