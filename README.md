@@ -14,6 +14,11 @@
 - Reselect
 - Lodash.memoize
 
+## Concepts Learned
+
+- Memoization
+- Currying
+
 ## Why Redux
 
 - a great way to manage large amount of data in state
