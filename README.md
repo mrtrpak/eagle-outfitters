@@ -9,6 +9,7 @@
 - React
 - Firebase
 - Redux
+- React-Redux
 - Redux Persist
 - Reselect
 - Lodash.memoize
