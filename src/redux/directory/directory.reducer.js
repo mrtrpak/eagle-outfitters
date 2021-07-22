@@ -22,14 +22,14 @@ const INITIAL_STATE = {
       title: 'footwear',
       image: footwear,
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/footwear'
     },
     {
-      title: 'mens',
-      image: mens,
+      title: 'womens',
+      image: womens,
       size: 'large',
       id: 4,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/womens'
     },
     {
       title: 'mens',
