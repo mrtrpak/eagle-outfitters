@@ -7,10 +7,10 @@ import womens from './photos/womens.jpg';
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'footwear',
-      image: footwear,
+      title: 'hats',
+      image: hats,
       id: 1,
-      linkUrl: 'shop/footwear'
+      linkUrl: 'shop/hats'
     },
     {
       title: 'jackets',
@@ -19,10 +19,10 @@ const INITIAL_STATE = {
       linkUrl: 'shop/jackets'
     },
     {
-      title: 'hats',
-      image: hats,
+      title: 'footwear',
+      image: footwear,
       id: 3,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/sneakers'
     },
     {
       title: 'mens',
@@ -32,11 +32,11 @@ const INITIAL_STATE = {
       linkUrl: 'shop/mens'
     },
     {
-      title: 'womens',
-      image: womens,
+      title: 'mens',
+      image: mens,
       size: 'large',
       id: 5,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/mens'
     }
   ]
 };
