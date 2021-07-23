@@ -18,6 +18,7 @@
 
 - Memoization
 - Currying
+- Data Normalization
 
 ## Why Redux
 
