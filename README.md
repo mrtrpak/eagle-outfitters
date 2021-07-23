@@ -13,6 +13,7 @@
 - Redux Persist
 - Reselect
 - Lodash.memoize
+- Stripe
 
 ## Concepts Learned
 
