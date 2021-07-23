@@ -5,10 +5,11 @@ import { createStructuredSelector } from 'reselect';
 
 import './cart-dropdown.styles.scss';
 
-import CustomButton from '../custom-button/custom-button.component.jsx';
-import CartItem from '../cart-item/cart-item.component.jsx';
 import { selectCartItems } from '../../redux/cart/cart.selectors.js';
 import { toggleCartHidden } from '../../redux/cart/cart.actions.js';
+import CustomButton from '../custom-button/custom-button.component.jsx';
+import StripeButton from '../stripe-button/stripe-button.component.jsx';
+import CartItem from '../cart-item/cart-item.component.jsx';
 
 const CartDropdown = ({ cartItems, history, dispatch }) => (
   <div className="cart-dropdown">
@@ -27,6 +28,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
     }}>
       GO TO CHECKOUT
     </CustomButton>
+    <StripeButton />
   </div>
 );
 
