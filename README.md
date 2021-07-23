@@ -18,7 +18,7 @@
 
 - Memoization
 - Currying
-- Data Normalization
+- Data Normalization: Objects being better for searching for items than Array. This is a common computing optimization when talking about data structures.
 
 ## Why Redux
 
