@@ -18,7 +18,7 @@
 - Reselect
 - Lodash.memoize
 - Stripe
-- Heroku
+- Heroku: hosts deployed website
 
 ## Concepts Learned
 
