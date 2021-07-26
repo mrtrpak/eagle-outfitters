@@ -14,6 +14,7 @@
 - Reselect
 - Lodash.memoize
 - Stripe
+- Heroku
 
 ## Concepts Learned
 
