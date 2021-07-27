@@ -19,6 +19,7 @@
 - Lodash.memoize
 - Stripe
 - Heroku: hosts deployed website
+- Styled-Components
 
 ## Concepts Learned
 
