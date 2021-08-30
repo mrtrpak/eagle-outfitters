@@ -4,6 +4,14 @@
 
 - Using create react app and React I am making a mock online clothing shop to enhance my react knowledge and capabilities. This project will help show my abilities to work with an ever growing and expanding professional website.
 
+### Table of Contents
+- [Website](#Website)
+- [Tools Used](#Tools-Used)
+- [Concepts](#Concepts-Learned)
+- [Why Redux](#Why-Redux)
+- [Redux Flow](#Redux-Flow)
+- [UI Features](#UI-Features)
+
 ## Website
 
 [CLICK HERE to go to website!](https://eagle-outfitters.herokuapp.com/)
