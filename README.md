@@ -2,11 +2,11 @@
 
 ## Goal
 
-- Using create react app and React I am making a mock online clothing shop to enhance my react knowledge and capabilities.
+- Using create react app and React I am making a mock online clothing shop to enhance my react knowledge and capabilities. This project will help show my abilities to work with an ever growing and expanding professional website.
 
 ## Website
 
-[Click Here](https://eagle-outfitters.herokuapp.com/)
+[CLICK HERE to go to website!](https://eagle-outfitters.herokuapp.com/)
 
 ## Tools Used
 
@@ -45,6 +45,8 @@
 - Store: entire state of the app
 - DOM Changes: the new state makes updates to the DOM
 
-## App Layout
-
 ### UI Features
+
+- Cart: the cart icon is able to update the total of items selected by the user to easily be able to reference how many items they have so far. Clicking the cart icon will show a summary of items selected with a photo, item description and how many of that item is in the cart.
+
+- Login/Logout: a user can easily and quickly register on the website securely and upon being signed in a logout option will appear for the user to easily logout when they are ready.
