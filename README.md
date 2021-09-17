@@ -11,6 +11,7 @@
 - [Why Redux](#Why-Redux)
 - [Redux Flow](#Redux-Flow)
 - [UI Features](#UI-Features)
+- [Improvements](#Improvements)
 
 ## Website
 
@@ -53,7 +54,7 @@
 - Store: entire state of the app
 - DOM Changes: the new state makes updates to the DOM
 
-### UI Features
+## UI Features
 
 - Cart: the cart icon is able to update the total of items selected by the user to easily be able to reference how many items they have so far. Clicking the cart icon will show a summary of items selected with a photo, item description and how many of that item is in the cart.
 
@@ -62,3 +63,6 @@
 - Categories: it is easy to go between different categories to be able to be more specific in the users search of clothing items.
 
 - Checkout: within the checkout page the user can choose to update the number of a selected item or remove all instances of that specific item with the delete button. 
+
+
+## Improvements
